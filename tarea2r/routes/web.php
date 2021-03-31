@@ -16,17 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-    Route::get('usuario', function()
+    Route::get('a', function()
     {
-        return ('usuario');
+        return ('a');
+    });
+    Route::get('b', function()
+    {
+        return ('b');
     });
     Route::get('producto', function()
     {
         return ('producto');
-    });
-    Route::get('venta', function()
-    {
-        return ('venta');
     });
     Route::get('compra', function()
     {
