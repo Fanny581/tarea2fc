@@ -32,7 +32,7 @@ Route::get('/', function () {
     {
         return ('compra');
     });
-    Route::get('inventario', function()
+    Route::get('inve', function()
     {
-        return ('inventario');
+        return ('inven');
     });
