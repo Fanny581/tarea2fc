@@ -16,13 +16,23 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-    Route::get('usuario/crear', 'UsuarioController@create')
-    ->name('usuario.create');
-    Route::get('articulo', 'articuloController@create')
-    ->name('articulo.create');
-    Route::get('ventas', 'ventasController@create')
-    ->name('ventas.create');
-    Route::get('compras', 'comprasController@create')
-    ->name('compras.create');
-    Route::get('inventario','inventarioController@create')
-    ->name('inventario.create');
+    Route::get('usuario', function()
+    {
+        return ('usuario');
+    });
+    Route::get('producto', function()
+    {
+        return ('producto');
+    });
+    Route::get('venta', function()
+    {
+        return ('venta');
+    });
+    Route::get('compra', function()
+    {
+        return ('compra');
+    });
+    Route::get('inventario', function()
+    {
+        return ('inventario');
+    });
