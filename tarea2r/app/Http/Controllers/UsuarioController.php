@@ -1,8 +1,6 @@
 <?php
-// routes/web.php
-Route::get('articulo', 'articuloController@create')
-    ->name('articulo.create');
 
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
