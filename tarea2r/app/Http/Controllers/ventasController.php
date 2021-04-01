@@ -45,6 +45,7 @@ class ventasController extends Controller
      */
     public function show($id)
     {
+        return "c";
         //
     }
 

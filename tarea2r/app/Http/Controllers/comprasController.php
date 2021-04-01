@@ -45,6 +45,7 @@ class comprasController extends Controller
      */
     public function show($id)
     {
+        return "b";
         //
     }
 

@@ -45,6 +45,7 @@ class articuloController extends Controller
      */
     public function show($id)
     {
+        return "a";
         //
     }
 
