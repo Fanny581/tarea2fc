@@ -13,6 +13,7 @@ class articuloController extends Controller
      */
     public function index()
     {
+        return view("vista1");
         //
     }
 
@@ -45,7 +46,7 @@ class articuloController extends Controller
      */
     public function show($id)
     {
-        return "a";
+       
         //
     }
 

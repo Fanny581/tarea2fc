@@ -13,6 +13,7 @@ class comprasController extends Controller
      */
     public function index()
     {
+        return view("vista2");
         //
     }
 
@@ -45,7 +46,7 @@ class comprasController extends Controller
      */
     public function show($id)
     {
-        return "b";
+        
         //
     }
 
